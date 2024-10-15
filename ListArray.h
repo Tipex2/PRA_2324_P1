@@ -29,7 +29,7 @@ class ListArray : public List<T> {
 			return arr[pos];
 		}
 
-		friend std::ostream& operator<<(std::ostream &out, const ListArray<T>& list){
+		friend std::ostream& operator<<(std::ostream &out, const ListArray<T> &list){
 			for (int i = 0; i < list.n; i++) {
 				out << list.arr[i] << " ";
 			}
